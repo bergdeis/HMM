@@ -45,13 +45,16 @@ Score of best hidden state sequence: 5.125781249999999e-07
 ‘Vinken’ is tagged at a proper noun because it is capitalized and not beginning a sentence. It also comes after another proper noun, which is a common trend because first and last names come right after each other. 
 ‘repowentate’ is tagged at a verb because it directly follows a modal verb.
 ‘krownen’ is tagged as a noun because it directly follows a determiner.
+
 2.2:
 (Every DT) (time NN) (I PRP) (fire VB) (a DT) (linguist NN), (the DT) (performance NN) (of IN) (speech JJ) (recognizer NN) (is VB) (on IN) (fire NN). 
 The first occurrence of ‘fire’ is tagged as a verb because ‘I’ is a complete NP. Since there is also an NP (‘a linguist’) following ‘fire’, the English grammar would probably not find it to be an NN also.
 The second occurrence of ‘fire’ is a noun because it is following an IN, and probably in a PP. The possible verb tag for ‘fire’ would not make sense in this environment.
+
 2.3:
 (Colorless JJ) (green JJ) (ideas NNS) (sleep VB) (okletinely RB). 
 ‘okletinely’ is tagged as an adverb because I am familiar with the example that has ‘furiously’ instead. English grammar would allow ‘okletinely’ to be an NN as well, but a POS tagger would statistically determine which part of speech ‘oketinely’ would be.
+
 2.4:
 (The DT) (landlord NN) (marks VB) (where WDT) (the DT) (tenants NN) (left VBD) (the DT) (marks NN). 
 The first occurrence of ‘marks’ follows a complete NP. ‘marks’ is either a verb or a noun, it is most likely a verb in this environment. 
